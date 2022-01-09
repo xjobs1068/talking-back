@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>말대꾸?! 생성기</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <section>
+
+        <h1 class="title">말대꾸?! 생성기</h1>
+        <div class="img-section">
+            <div id="tmpImgDiv">
+                <p id="out" class="first talk-text">개발자가</p>
+                <p id="out2" class="second talk-text">말대꾸?!</p>
+                <img src="assets/img/zal1.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="text-input">
+            <span>첫 번째 대사</span>
+            <input id="data" type="text" placeholder="개발자가..">
+        </div>
+
+        <div class="text-input">
+            <span>두 번째 대사</span>
+            <input id="data2" type="text" placeholder="말대꾸?!">
+        </div>
+        <button onclick="downImg()">이미지 다운로드</button>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/html2canvas.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
